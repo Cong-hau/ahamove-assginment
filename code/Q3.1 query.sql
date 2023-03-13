@@ -6,5 +6,5 @@ WITH tenure AS (
 	Where end_date is Null
 )
 Select  max(tenure) as the_longest_tenure,
-		min(tenure) as the_shortest_tenure
+	min(tenure) as the_shortest_tenure
 From tenure
