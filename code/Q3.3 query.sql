@@ -1,5 +1,6 @@
 /******3) Create a query that returns each employee along with the maximum number of employees who worked for the company during their tenure, 
-and the first date on which this maximum number was reached.******/						
+and the first date on which this maximum number was reached.******/
+DROP TABLE IF EXISTS temp_table
 SELECT *
 INTO temp_table
 FROM [Ahamove].[dbo].[hr] AS T1
